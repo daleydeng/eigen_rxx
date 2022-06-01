@@ -1,0 +1,11 @@
+[package]
+name = "eigen_rxx"
+version = "0.1.0"
+edition = "2021"
+
+[dependencies]
+cxx = "1.0"
+miette = { version = "4.7.1", features = ["fancy"] }
+
+[build-dependencies]
+cxx-build = "1.0"
