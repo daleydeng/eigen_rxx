@@ -1,5 +1,5 @@
 [tasks.wrapper]
-command = "./tools/j2render.py"
+command = "j2render.py"
 args = ["-o", "src/wrapper.rs", "tpl/wrapper.rs"]
 
 [tasks.build]
