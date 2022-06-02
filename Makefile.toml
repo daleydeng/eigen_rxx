@@ -6,3 +6,8 @@ args = ["-o", "src/wrapper.rs", "tpl/wrapper.rs"]
 command = "cargo"
 args = ["build"]
 dependencies = ["wrapper"]
+
+[tasks.test]
+command = "cargo"
+args = ["test", "--", "--nocapture"]
+dependencies = ["build"]
